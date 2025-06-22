@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IA4Earth – Proyectos</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg-light: #f0f0f0;
+      --bg-dark: #1a1a1a;
+      --text-light: #000;
+      --text-dark: #fff;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg-light);
+      color: var(--text-light);
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: var(--bg-dark);
+        color: var(--text-dark);
+      }
+
+      nav a {
+        color: #fff;
+      }
+    }
+
+    header {
+      padding: 1rem;
+      background: #006e90;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .proyecto {
+      margin-bottom: 2rem;
+      border-left: 4px solid #006e90;
+      padding-left: 1rem;
+      background-color: rgba(0, 110, 144, 0.05);
+      border-radius: 6px;
+    }
+
+    .proyecto h2 {
+      margin-top: 0;
+      font-size: 1.4rem;
+    }
+
+    .proyecto p {
+      margin: 0.5rem 0 0;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #333;
+      color: #ccc;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .proyecto h2 {
+        font-size: 1.2rem;
+      }
+
+      .proyecto p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>IA4Earth – Proyectos</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="proyecto">
+      <h2>🌱 GAIA</h2>
+      <p>Uso de IA para monitorear cultivos, optimizar riego y predecir plagas. Ayuda a pequeños agricultores a mejorar sus cosechas de forma sostenible.</p>
+    </section>
+
+    <section class="proyecto">
+      <h2>🩺 VITA</h2>
+      <p>IA médica para comunidades rurales: diagnostica enfermedades comunes con solo una foto o audio, usando modelos entrenados en medicina comunitaria.</p>
+    </section>
+
+    <section class="proyecto">
+      <h2>📚 EDUNA</h2>
+      <p>Plataforma educativa que personaliza el aprendizaje usando IA: detecta ritmo, fortalezas y debilidades del estudiante y adapta el contenido.</p>
+    </section>
+
+    <section class="proyecto">
+      <h2>🌦️ CLIMAX</h2>
+      <p>Red de sensores y IA para predecir eventos extremos como lluvias intensas o sequías. Enfocado en zonas vulnerables al cambio climático.</p>
+    </section>
+
+    <section class="proyecto">
+      <h2>♿ EQUALL</h2>
+      <p>Desarrollo de herramientas inclusivas con IA: lectura de texto por voz, subtitulado automático, asistencia para personas con discapacidades visuales o auditivas.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 IA4Earth – Creado por RODRIGUEZ ORTEGA CRISTIAN GABRIEL</p>
+  </footer>
+</body>
+</html>
